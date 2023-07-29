@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import userRoute from "./routes/api/users.js";
 import { errorHandler, notFound } from "./middleware/errorMIddleware.js";
-import connectDB from "./config/DB.js";
+import connectDB from "./config/Db.js";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import cors from "cors";
