@@ -1,3 +1,3 @@
-const allowedOrigins = ["https://qayyumauthentication.netlify.app/"];
+const allowedOrigins = ["https://qayyumauthentication.netlify.app"];
 
 export default allowedOrigins;
