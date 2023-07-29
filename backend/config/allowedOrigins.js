@@ -1,7 +1,3 @@
-const allowedOrigins = [
-  "http://localhost:5173",
-  "http://localhost:5500",
-  "https://mern-authentication-u8hk.onrender.com/",
-];
+const allowedOrigins = ["https://qayyumauthentication.netlify.app/"];
 
 export default allowedOrigins;

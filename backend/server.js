@@ -12,7 +12,6 @@ dotenv.config();
 const port = process.env.PORT || 3300;
 connectDB();
 const app = express();
-
 // Handle options Credentials check - before CORS!
 // and fetch cookies credentials requirement
 // THIRD-PARTY MIDDLEWARE
