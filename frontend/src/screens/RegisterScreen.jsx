@@ -18,9 +18,10 @@ const RegisterScreen = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { userInfo } = useSelector((state) => state.auth);
-
+  console.log(userInfo);
   useEffect(() => {
     if (userInfo) {
+      alert(userInfo.username);
       navigate("/");
     }
   }, [navigate, userInfo]);
